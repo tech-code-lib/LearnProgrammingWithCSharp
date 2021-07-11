@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Day1/HelloWorldApp/obj
+/Day1/HelloWorldApp/bin/Debug
+/Day1/.vs/Day1/v16
+/.vs
