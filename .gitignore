@@ -1,0 +1,29 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/slnx.sqlite
+/.vs/Day 3/v16/.suo
+/DemoSteve/obj
+/ErrorHandling/bin/Debug/net5.0
+/OOPAbstractionAndPolymorphismExample/bin/Debug/net5.0
+/OOPExample/bin/Debug/net5.0
+/OOPExample/obj/Debug/net5.0
+/OOPExample/obj
+/OOPExampleInheritance/bin/Debug/net5.0
+/OOPExampleInheritance/obj/Debug/net5.0
+/OOPExampleInheritance/obj/Release/net5.0
+/OOPExampleInheritance/obj
+/OOPAbstractionAndPolymorphismExample/obj/Debug/net5.0
+/OOPAbstractionAndPolymorphismExample/obj/project.nuget.cache
+/OOPAbstractionAndPolymorphismExample/obj/project.assets.json
+/OOPAbstractionAndPolymorphismExample/obj/OOPAbstractionAndPolymorphismExample.csproj.nuget.g.targets
+/OOPAbstractionAndPolymorphismExample/obj/OOPAbstractionAndPolymorphismExample.csproj.nuget.g.props
+/OOPAbstractionAndPolymorphismExample/obj/OOPAbstractionAndPolymorphismExample.csproj.nuget.dgspec.json
+/ErrorHandling/obj/Release/net5.0
+/ErrorHandling/obj/Debug/net5.0
+/ErrorHandling/obj/project.nuget.cache
+/ErrorHandling/obj/project.assets.json
+/ErrorHandling/obj/ErrorHandling.csproj.nuget.g.targets
+/ErrorHandling/obj/ErrorHandling.csproj.nuget.g.props
+/ErrorHandling/obj/ErrorHandling.csproj.nuget.dgspec.json
