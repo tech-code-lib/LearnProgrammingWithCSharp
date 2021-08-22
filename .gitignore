@@ -1,0 +1,18 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CollectionsExamples/bin/Debug/net5.0
+/.vs
+/CollectionsExamples/obj/Debug/net5.0
+/CollectionsExamples/obj/Release/net5.0
+/CollectionsExamples/obj
+/OtherExamplesOfRefenceTypes/bin/Debug/net5.0
+/PassingParametersByValueByRef/obj
+/OtherExamplesOfRefenceTypes/obj
+/PassingParametersByValueByRef/bin/Debug/net5.0
+/PassingParamsByRef/obj
+/PassingParamsByVal/obj
+/PassingParmsByRefOut/obj
+/UnderstandMemoryUsedInApp/bin/Debug/net5.0
+/UnderstandMemoryUsedInApp/obj
