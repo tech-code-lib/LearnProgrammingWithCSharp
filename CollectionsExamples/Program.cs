@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace CollectionsExamples
 {
@@ -22,6 +23,7 @@ namespace CollectionsExamples
             // Store 5 numbers
             int[] nums = new int[] { 2, 4, 1, 5, 6 };
 
+            
             //If you want to 2 more numbers
             //You have resize or recreate array.
 
@@ -34,6 +36,9 @@ namespace CollectionsExamples
             nums[5] = 7;
             nums[6] = 8;
 
+            // BaseClass obj = new ChildClass();
+            // Object obj = 2
+            
             ArrayList myList = new ArrayList();
             myList.Add(2);
             myList.Add(4);
@@ -49,17 +54,57 @@ namespace CollectionsExamples
             myList.Add(city);
             myList.Add(customer);
 
-            for (int i = 0; i < myList.Count; i++)
-            {
-                Console.WriteLine(myList[i]);
+            for (int i = 0; i < myList.Count; i++)//Length
+            {                
+                Console.WriteLine(myList[i]);// Similar to Array
             }
 
-            var department = new { Name = "Inventory" };
-            //department.Name = "aa";
+            Customer cust = (Customer)myList[3];
+
+            
                        
             
-            Console.WriteLine(department.Name);
+            
 
+            //Generics, Typed Parameter <T>
+
+            List<int> myNumbers = new List<int>();
+            myNumbers.Add(12);
+            myNumbers.Add(16);
+            myNumbers.Add(25);
+
+            foreach (int item in myNumbers)
+            {
+                Console.WriteLine(item);
+            }
+            myNumbers.Remove(12);
+            Console.WriteLine(myNumbers.Contains(12));
+
+            List<Customer> customers = new List<Customer>();
+            customers.Add(cust);
+
+
+            var age = "Nitin";
+            int _age = 25;
+
+
+            var department = new { Name = "Inventory" };
+            Console.WriteLine(department.Name);
+            //department.Name = "aa";
         }
     }
 }
+
+//// Database
+//// CustomerDAC, ProductDAC - CRUD
+
+//class DAC<T>
+//{
+//    void Add(T val)
+//    {
+        
+//    }
+//}
+
+//DAC<Customer> customerDAC = new DAC<Customer>();
+//customerDAC.Add()
