@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Day5/LambdaExpression/obj
+/Day5/LambdaExpression/bin/Debug/net5.0
+/Day5/DelegatesEventsExamples/obj
+/Day5/DelegatesEventsExamples/bin/Debug/net5.0
+/Day5/Collections/obj
+/Day5/Collections/bin/Debug/net5.0
+/Day5/.vs/Day5/v16
+/.vs
