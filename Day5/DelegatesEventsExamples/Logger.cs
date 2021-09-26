@@ -11,6 +11,7 @@ namespace DelegatesEventsExamples
     {
         public Log LogMethod;
 
+        
         public Logger()
         {
             LogMethod += FileLogger.LogToFile;

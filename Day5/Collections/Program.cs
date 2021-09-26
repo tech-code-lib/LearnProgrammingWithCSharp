@@ -26,9 +26,10 @@ namespace Collections
             
             AddCustomerToList(hashtable, customer3.CustomerId, customer3);
 
-            var cust = hashtable[5] as Customer;
+            var cust = hashtable[3] as Customer;
 
-            //Console.WriteLine(cust.Email);
+            Console.WriteLine(cust.Email);
+
 
 
             Dictionary<int, Customer> map = new Dictionary<int, Customer>();
@@ -44,10 +45,10 @@ namespace Collections
             toDos.Enqueue(CreateToDo(3, "Book Tickets"));
 
 
-            //PrintMyToDosList(toDos);
+            PrintMyToDosList(toDos);
 
-            
-            // Last in First out
+
+            //Last in First out
             Stack<ToDo> stackTodos = new Stack<ToDo>();
             stackTodos.Push(CreateToDo(4, "Stack Demo"));
             stackTodos.Push(CreateToDo(5, "Make Credit Card Payment"));
@@ -55,7 +56,7 @@ namespace Collections
             PrintMyToDosStack(stackTodos);
 
             Tuple<string, ToDo> todoForNitin = new ("Nitin", CreateToDo(1, "Day5 Training"));
-            Tuple<string, ToDo> todoForSteve = new("Steve", CreateToDo(1, "Day5 Training assignment"));
+            //Tuple<string, ToDo> todoForSteve = new("Steve", CreateToDo(1, "Day5 Training assignment"));
 
             Console.WriteLine(todoForNitin.Item2 + " " + todoForNitin.Item1);
 
@@ -72,9 +73,11 @@ namespace Collections
 
         static void PrintMyToDosList(Queue<ToDo> todos)
         {
+            Console.WriteLine("Printing Queue");
             while (todos.Count > 0)
             {
-                Console.WriteLine(todos.Dequeue());
+                ToDo myToDO = todos.Dequeue();
+                Console.WriteLine(myToDO);
             }
         }
 

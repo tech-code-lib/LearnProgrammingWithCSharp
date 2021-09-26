@@ -11,8 +11,11 @@ namespace DelegatesEventsExamples
         private Logger logger;
         public CustomerService()
         {
-            logger = new Logger();            
+            logger = new Logger();
+            
         }
+
+        
 
         public void LogIn(Customer customer)
         {
